@@ -10,7 +10,7 @@ namespace GL.Tests
         [TestMethod]
         public void UserCanAddTwoNumbers()
         {
-            Assert.AreEqual(3, Program.Add(2, 2), "Addition of two numbers failed");
+            Assert.AreEqual(4, Program.Add(2, 2), "Addition of two numbers failed");
         }
 
         [TestMethod]
